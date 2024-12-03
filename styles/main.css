@@ -1,62 +1,27 @@
-header {
-    text-align: end;
-}
-#ul1 {
+ul {
     list-style: none;
 }
-.li1 {
-    display: inline;
-    margin-right: 20px;
-    font-size: 18px;
-    color: #8E26C0;
+.navhead {
+    width: 1231px;
+    height: 72px;
+    background-color: #F7F4FF;
 }
-#nextmoveImage {
-    width: 146px;
-    height: 21px;
-    margin-right: 280px;
+.nextmove {
+    width: 173px;
+    height: 48px;
+    margin: 12px 170px 12px 22px;
+}
+li {
+    display: inline-block;
+}
+.infodiv {
+    display: inline-block;
+    font-size: 18px;
+    margin: 25px 170px 25px 0;
+}
+body {
+    margin: 0;
 }
 a {
     text-decoration: none;
-    color: #332233;
-}
-#navDiv {
-    background-color: #F7F4FF;
-}
-#contactUs {
-    margin-left: 280px;
-    border: 1px solid #8E26C0;
-    border-radius: 8px;
-    padding: 8px 16px 8px 16px;
-    color: #8E26C0;
-    font-size: 14px;
-}
-#contact {
-    color: #8E26C0;
-}
-/* სექცია 1 */
-#photo1 {
-    width: 610px;
-    height: 458px;
-    margin-top: 210px;
-    margin-left: 350px;
-}
-section {
-    display: inline;
-}
-div {
-    display: inline-block;
-}
-/* სექცია 2 */
-#whatweOffer {
-    font-size: 40px;
-    
-}
-#lorem {
-    font-size: 20px;
-}
-#loremDiv {
-    width: 644px;
-    height: 325px;
-    border: 1px solid black;
-    margin-top: 300px;
 }
