@@ -1,0 +1,62 @@
+header {
+    text-align: end;
+}
+#ul1 {
+    list-style: none;
+}
+.li1 {
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #8E26C0;
+}
+#nextmoveImage {
+    width: 146px;
+    height: 21px;
+    margin-right: 280px;
+}
+a {
+    text-decoration: none;
+    color: #332233;
+}
+#navDiv {
+    background-color: #F7F4FF;
+}
+#contactUs {
+    margin-left: 280px;
+    border: 1px solid #8E26C0;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    color: #8E26C0;
+    font-size: 14px;
+}
+#contact {
+    color: #8E26C0;
+}
+/* სექცია 1 */
+#photo1 {
+    width: 610px;
+    height: 458px;
+    margin-top: 210px;
+    margin-left: 350px;
+}
+section {
+    display: inline;
+}
+div {
+    display: inline-block;
+}
+/* სექცია 2 */
+#whatweOffer {
+    font-size: 40px;
+    
+}
+#lorem {
+    font-size: 20px;
+}
+#loremDiv {
+    width: 644px;
+    height: 325px;
+    border: 1px solid black;
+    margin-top: 300px;
+}
