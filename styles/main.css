@@ -1,27 +1,327 @@
-ul {
+.firstUl{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display:block;
+    text-align: center;
+    
 }
 .navhead {
     width: 1231px;
     height: 72px;
     background-color: #F7F4FF;
+    /* float: right; */
+    margin-left: 670px;
 }
 .nextmove {
-    width: 173px;
-    height: 48px;
-    margin: 12px 170px 12px 22px;
+    display: block;
 }
-li {
-    display: inline-block;
-}
-.infodiv {
+.menuli {
     display: inline-block;
     font-size: 18px;
-    margin: 25px 170px 25px 0;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+#contact {
+    color: #8E26C0;
+}
+.imageli {
+    display: inline-block;
+    margin-top: 12px;
 }
 body {
     margin: 0;
 }
 a {
     text-decoration: none;
+    color: #332233;
+}
+#nextmoveimage {
+    height: 72px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.menuDiv {
+    display: inline-block;
+    width: 1053px;
+    vertical-align: middle;
+}
+.contactusdiv {
+    display:inline-block;
+    /* float: right; */
+    text-align: right;
+    border: 1px solid #8E26C0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin-left: 276px;
+}
+#contactUs {
+    font-size: 14px;
+    color: #8E26C0;
+}
+.leptopimage {
+    width: 610px;
+    height: 458px;
+    vertical-align: middle;
+}
+.firstsectiondiv {
+    display: block;
+    width: 1400px;
+    margin: 0 auto;
+}
+.leptopdiv {
+    display: inline-block;
+    margin-right: 44px;
+}
+.loremdiv {
+    display: inline-block;
+    width: 644px;
+    height: 241px;
+    vertical-align: middle;
+}
+.firstlorem {
+    font-size: 20px;
+    color: #535862;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+.ol {
+    font-size: 24px;
+    text-align: left;
+}
+.firstsection{
+    margin-top: 215px;
+}
+.Whatweoffer {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 40px;
+}
+/* სექცია 2 */
+.secondsectiondiv {
+    width: 1221px;
+    height: 706px;
+    margin: 70px auto;
+}
+.titlecontactus {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 18px;
+}
+.titlediv {
+    width: 905px;
+    height: 140px;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+.secondlorem {
+    color: #535862;
+    font-size: 20px;
+    text-align: center;
+}
+.pinkdiv {
+    width: 1221px;
+    height: 538px;
+    background-color: #F7F4FF;
+    padding-top: 32px;
+}
+.infodiv {
+    width: 1160px;
+    height: 474px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.informations {
+    width: 403px;
+    height: 474px;
+    background-color: white;
+}
+.addresslogo {
+    width: 56px;
+    height: 56px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+.address {
+    width: 363px;
+    height: 57px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 24px;
+}
+.textaddress {
+    margin: 0;
+    vertical-align: top;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.streetname {
+    font-size: 16px;
+    color: #6D5F8B;
+    margin: 0;
+}
+.addbox {
+    display: inline-block;
+    vertical-align: middle;
+}
+.email {
+    width: 363px;
+    height: 57px;
+    margin: 0 auto;
+}
+.emaillogo {
+    width: 56px;
+    height: 56px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+.emailbox {
+    display: inline-block;
+    width: 222px;
+    height: 57px;
+    vertical-align: middle;
+}
+.textemail {
+    font-size: 20px;
+    vertical-align: middle;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+.emailname{
+    font-size: 16px;
+    color: #6D5F8B;
+    vertical-align: middle;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.phone {
+    width: 363px;
+    height: 57px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.phonelogo {
+    width: 56px;
+    height: 56px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+.phonebox {
+    display: inline-block;
+    width: 103px;
+    height: 57px;
+    vertical-align: middle;
+}
+.textphone {
+    font-size: 20px;
+    margin: 0;
+    vertical-align: middle;
+    margin-bottom: 6px;
+}
+.phonenumber {
+    font-size: 16px;
+    color: #6D5F8B;
+    margin: 0;
+    vertical-align: middle;
+}
+.form {
+    display: inline-block;
+    border: 1px solid black;
+    width: 730px;
+    height: 474px;
+    margin-left: 24px;
+}
+/* ქვედა ნავიგაცია */
+footer {
+    height: 480px;
+    background-color: #53389E;
+    padding-top: 64px;
+}
+.navfooter {
+    width: 1280px;
+    height: 240px;
+    margin: 0px auto;
+}
+.footerul {
+    width: 1238px;
+    height: 240px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+.footerlititle {
+    font-size: 14px;
+    width: 176px;
+    height: 20px;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+.footerlititle a {
+    color: #D6BBFB;
+    vertical-align: middle;
+}
+.footerli a {
+    color: #E9D7FE;
+    font-size: 16px;
+}
+.footerli {
+    margin-bottom: 12px;
+    vertical-align: middle;
+}
+#releases {
+    margin: 0;
+}
+.solutionlogo {
+    width: 38px;
+    height: 22px;
+    vertical-align: middle;
+}
+.componentsul {
+    display: inline-block;
+    width: 176px;
+    height: 240px;
+    vertical-align: top;
+    margin-right: 32px;
+}
+.footerli a {
+    vertical-align: middle;
+}
+#legal {
+    margin: 0;
+}
+.untiltedboxdiv {
+    width: 1280px;
+    height: 64px;
+    margin: 64px auto;
+    border-top-width: 1px;
+    border-top-color: #7F56D9;
+    border-top-style: solid;
+}
+.untilteddiv {
+    width: 1216px;
+    height: 64px;
+    margin: 0 auto;
+    padding-top: 32px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.untilteddiv p {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    display: inline-block;
+    width: 1068px;
+    color: #D6BBFB;
+    font-size: 16px;
+}
+.untiltedimage {
+    width: 142px;
+    height: 32px;
+    vertical-align: middle;
+    display: inline-block;
 }
