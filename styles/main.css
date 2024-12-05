@@ -4,6 +4,7 @@
     padding: 0;
     display:block;
     text-align: center;
+    text-align: right;
     
 }
 .navhead {
@@ -125,17 +126,20 @@ a {
     height: 538px;
     background-color: #F7F4FF;
     padding-top: 32px;
+    border-radius: 16px;
 }
 .infodiv {
     width: 1160px;
     height: 474px;
-    border: 1px solid black;
     margin: 0 auto;
 }
 .informations {
     width: 403px;
     height: 474px;
     background-color: white;
+    vertical-align: top;
+    display: inline-block;
+    border-radius: 16px;
 }
 .addresslogo {
     width: 56px;
@@ -227,11 +231,120 @@ a {
 }
 .form {
     display: inline-block;
-    border: 1px solid black;
     width: 730px;
     height: 474px;
-    margin-left: 24px;
+    margin-left: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
 }
+.sendmessage {
+    font-size: 32px;
+    margin: 0 auto;
+    text-align: left;
+    box-sizing: border-box;
+}
+.sendmessagediv{
+    width: 730px;
+    height: 44px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.fullnamelabel {
+    display: inline-block;
+    width: 730px;
+    height: 18px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+#fullnameinput {
+    outline: none;
+    border: none;
+    width: 698px;
+    height: 32px;
+    background-color: #F7F4FF;
+    padding: 0;
+}
+::placeholder {
+    font-size: 14px;
+    color: #6D5F8B;
+    vertical-align: middle;
+    vertical-align: middle;
+}
+.fullnamediv {
+    width: 730px;
+    height: 48px;
+    border: 1px solid #8E26C0;
+    border-radius: 8px;
+    vertical-align: middle;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 24px;
+}
+
+.emaillabel {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: inline-block;
+    width: 730px;
+    height: 18px;
+    vertical-align: middle;
+}
+.emaildiv {
+    width: 730px;
+    height: 48px;
+    border: 1px solid #8E26C0;
+    border-radius: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}
+#emailinput {
+    width: 698px;
+    height: 32px;
+    border: none;
+    outline: none;
+    background-color: #F7F4FF;
+}
+textarea {
+    width: 730px;
+    height: 146px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    resize: none;
+    background-color: #F7F4FF;
+    padding: 12px 16px;
+    border: 1px solid #8E26C0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    vertical-align: middle;
+}
+
+.submit {
+    border: none;
+    width: 140px;
+    height: 48px;
+    background-color: #8E26C0;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+}
+.submitdiv {
+    display:block;
+    text-align: right;
+}
+form {
+    display: inline-block;
+}
+
+
+
+
 /* ქვედა ნავიგაცია */
 footer {
     height: 480px;
